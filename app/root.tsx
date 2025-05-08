@@ -6,7 +6,7 @@ import {
   ScrollRestoration,
 } from "react-router";
 
-import { Analytics } from "@vercel/analytics/remix";
+import { Analytics } from "@vercel/analytics/react";
 
 import RouteProvider from "~/route-provider";
 import CursorProvider from "~/route-provider/context";
