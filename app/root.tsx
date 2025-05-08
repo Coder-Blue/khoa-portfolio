@@ -6,6 +6,8 @@ import {
   ScrollRestoration,
 } from "react-router";
 
+import { Analytics } from "@vercel/analytics/remix";
+
 import RouteProvider from "~/route-provider";
 import CursorProvider from "~/route-provider/context";
 
@@ -39,6 +41,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body>
+        <Analytics />
         {children}
         <ScrollRestoration />
         <Scripts />
