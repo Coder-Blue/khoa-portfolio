@@ -72,7 +72,7 @@ function Contact() {
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: "100%" }}
       transition={transition}
-      className="section bg-white"
+      className="section"
     >
       <div className="container mx-auto h-full">
         <div className="flex h-full flex-col items-center justify-start gap-x-8 pt-36 text-center lg:flex-row lg:text-left">
